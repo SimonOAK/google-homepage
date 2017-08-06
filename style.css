@@ -21,6 +21,9 @@
 	padding-top: 6px;
 	text-align: left;
 	white-space: nowrap;
+	position: absolute;
+	width: 540px;
+
 
 }
 
@@ -41,7 +44,7 @@
 	height: auto;
 	/*width: 100%;*/
 	outline: none;
-	width: 560px;
+	width: inherit;
 	float: left;
 	height: 30px;
 	font-family: arial, sans-serif;
@@ -53,7 +56,30 @@
 	width: 40px;
 	height: 44px;
 	vertical-align: top;
+	padding-top: 10px;
 
 }
 
-.voiceicon2
+.voiceicon2 {
+	  vertical-align: middle;
+	  background-size: 36px 36px;
+	  padding:5px 6px 5px 5px;
+	/*background-size: 24px 24px;
+	vertical-align: middle;
+	display: inline-block;
+	height: 23px;
+	text-align: center;
+	line-height: 44px;
+	white-space: nowrap;*/
+}
+
+#voiceicon3 {
+			display: inline-block;
+			vertical-align: middle;
+			background-size: 30px 30px;
+
+
+	}
+
+
+
